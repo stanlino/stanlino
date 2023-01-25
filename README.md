@@ -23,11 +23,12 @@
 
 ##
 
-<div>
-    <a href="https://github.com/stanlino">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stanlino&layout=compact&langs_count=7&theme=tokyonight&text_color=FFFFFF&title_color=FFFFFF"/>
-</div>
+<div style="display: flex; width: 100%">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=stanlino&theme=tokyonight&text_color=FFFFFF&title_color=FFFFFF" />
   
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stanlino&layout=compact&langs_count=7&theme=tokyonight&text_color=FFFFFF&title_color=FFFFFF"/>
+</div>
+
 ##
   
 <div> 
