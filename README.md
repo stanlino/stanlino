@@ -1,11 +1,4 @@
-### Hi there! I'm Stanley 👋 
-
-  - 🏋️‍♀️ I have 2 years of experience in React and React Native
-    - <a href='https://app.rocketseat.com.br/certificates/f4584d47-a958-4586-9995-693374666752'>See my <strong>ReactJS</strong> course completion certificate at Rocketseat Education 🚀</a>
-    - <a href='https://app.rocketseat.com.br/certificates/0e20cc6d-f91c-4e7b-ba2b-704270a3dd5e'>See my <strong>React Native</strong> course completion certificate at Rocketseat Education 🚀</a>
-  - 👀 I’m currently looking for a frontend developer vacancy
-  - 🌱 I’m currently studying backend with NodeJS and Typescript
-
+### Hi! I'm Stanley. Nice to meet you 👋 
 <div style="display: inline_block"><br>
   <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
