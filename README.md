@@ -36,7 +36,7 @@
 **Contato:**
 
 <a href="https://linkedin.com/in/stanley-filipe-neiva-298465164"><img src="https://img.shields.io/badge/linkedin-282A36?style=for-the-badge&logoColor=F2F2F2&logo=linkedin"/></a>
-<a href="mailto:stanley92filipe@gmail.com@gmail.com"><img src="https://img.shields.io/badge/email-282A36?logo=gmail&style=for-the-badge&logoColor=F2F2F2"/></a>
+<a href="mailto:stanley92filipe@gmail.com"><img src="https://img.shields.io/badge/email-282A36?logo=gmail&style=for-the-badge&logoColor=F2F2F2"/></a>
 
 **Frufruzinhos:**
 <p align="left">
