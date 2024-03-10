@@ -31,6 +31,7 @@
 <img src="https://img.shields.io/badge/nestjs-BD93F9?logo=nestjs&style=for-the-badge&logoColor=F2F2F2"/>
 <img src="https://img.shields.io/badge/nx-282A36?logo=nx&style=for-the-badge&logoColor=F2F2F2"/>
 <img src="https://img.shields.io/badge/nginx-282A36?logo=nginx&style=for-the-badge&logoColor=F2F2F2"/>
+<img src="https://img.shields.io/badge/go-BD93F9?logo=go&style=for-the-badge&logoColor=F2F2F2"/>
 </p>
 
 **Contato:**
