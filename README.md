@@ -41,6 +41,6 @@
 
 **Frufruzinhos:**
 <p align="left">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=stanlino&theme=tokyonight&text_color=FFFFFF&title_color=FFFFFF" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stanlino&layout=compact&langs_count=7&theme=tokyonight&text_color=FFFFFF&title_color=FFFFFF"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=stanlino&theme=tokyonight&text_color=FFFFFF&title_color=FFFFFF&border_color=3f3f46" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stanlino&layout=compact&langs_count=7&theme=tokyonight&text_color=FFFFFF&title_color=FFFFFF&border_color=3f3f46"/>
 </p>
