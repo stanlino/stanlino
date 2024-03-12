@@ -1,6 +1,6 @@
 import { Converter } from "showdown";
 
-const GITHUB_README_URL = "https://raw.githubusercontent.com/stanlino/stanlino/master/README.md";
+const GITHUB_README_URL = "https://raw.githubusercontent.com/stanlino/stanlino/main/README.md";
 
 export async function Readme() {
 
@@ -25,16 +25,22 @@ const classes: Record<string, string> = {
   'h3': 'text-2xl font-bold -mb-4'
 };
 
-const bindings = Object.keys(classes).map(key => ({
+const textStyles = Object.keys(classes).map(key => ({
   type: 'output',
   regex: new RegExp(`<${key}(\\s+[^>]+)?>`, 'g'),
   replace: `<${key} class="${classes[key]}">`
 }));
 
+const imgStyles = {
+  type: 'output',
+  regex: /<img/g,
+  replace: `<img class="max-h-44 rounded-md border border-zinc-700"`,
+};
+
 const converter = new Converter({
   ghCompatibleHeaderId: true,
   ghCodeBlocks: true,
   ghMentions: true,
-  extensions: [...bindings],
+  extensions: [...textStyles, imgStyles],
   noHeaderId: true,
 });

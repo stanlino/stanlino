@@ -2,8 +2,8 @@ import Image from "next/image"
 
 export function Achievements() {
   return (
-    <div className="flex flex-col border-t border-t-zinc-700 mt-6 py-4 gap-4">
-      <strong className="text-md">Achievements</strong>
+    <div className="flex flex-col mt-2 py-4 gap-4 w-full items-center md:items-start">
+      <span className="text-md hidden md:block font-semibold text-zinc-300">Achievements</span>
       <div className="flex gap-2">
         {achievements.map((achievement, index) => (
           <div key={index} className="relative group">
@@ -12,7 +12,7 @@ export function Achievements() {
               <p className="text-xs">{achievement.description}</p>
             </div>
             <a href={achievement.link} target="_blank" rel="noopener noreferrer">
-              <Image src={achievement.img} alt={achievement.name} className="w-12 h-12 rounded-full" width={48} height={48} />
+              <Image src={achievement.img} alt={achievement.name} className="w-16 h-16 rounded-full" width={48} height={48} />
             </a>
           </div>
         ))}
