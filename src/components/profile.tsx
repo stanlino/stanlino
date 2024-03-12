@@ -1,5 +1,6 @@
 import { GithubProfile } from "@/types/github"
 import { FaClock, FaMapLocation } from "react-icons/fa6"
+import { DateTime } from "./date"
 
 interface Props {
   data: GithubProfile
@@ -21,11 +22,7 @@ export function Profile({ data }: Props) {
         </li>
         <li className="flex gap-2 items-center">
           <FaClock className="text-zinc-400 text-md" />
-          {Intl.DateTimeFormat('pt-BR', {
-            hour: 'numeric',
-            minute: 'numeric',
-            timeZone: 'America/Araguaina'
-          }).format(new Date())} <span className="text-zinc-400">(UTC -03:00)</span>
+          <DateTime />
         </li>
       </ul>
     </div>
