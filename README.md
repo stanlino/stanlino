@@ -36,11 +36,11 @@
 
 **Contato:**
 
-<a href="https://linkedin.com/in/stanley-filipe-neiva-298465164"><img src="https://img.shields.io/badge/linkedin-282A36?style=for-the-badge&logoColor=F2F2F2&logo=linkedin"/></a>
-<a href="mailto:stanley92filipe@gmail.com"><img src="https://img.shields.io/badge/email-282A36?logo=gmail&style=for-the-badge&logoColor=F2F2F2"/></a>
+<a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/stanley-filipe-neiva-298465164"><img src="https://img.shields.io/badge/linkedin-282A36?style=for-the-badge&logoColor=F2F2F2&logo=linkedin"/></a>
+<a target="_blank" rel="noopener noreferrer" href="mailto:stanley92filipe@gmail.com"><img src="https://img.shields.io/badge/email-282A36?logo=gmail&style=for-the-badge&logoColor=F2F2F2"/></a>
 
 **Frufruzinhos:**
 <p align="left">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=stanlino&theme=tokyonight&text_color=FFFFFF&title_color=FFFFFF&border_color=3f3f46" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stanlino&layout=compact&langs_count=7&theme=tokyonight&text_color=FFFFFF&title_color=FFFFFF&border_color=3f3f46"/>
+  <img class="max-h-44 rounded-md border border-zinc-700" height="180em" src="https://github-readme-stats.vercel.app/api?username=stanlino&amp;theme=tokyonight&amp;text_color=FFFFFF&amp;title_color=FFFFFF&amp;border_color=282a36&amp;bg_color=282a36">
+  <img class="max-h-44 rounded-md border border-zinc-700" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stanlino&amp;layout=compact&amp;langs_count=7&amp;theme=tokyonight&amp;text_color=FFFFFF&amp;title_color=FFFFFF&amp;border_color=282a36&amp;bg_color=282a36">
 </p>
