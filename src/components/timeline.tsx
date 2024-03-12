@@ -1,11 +1,10 @@
-import { cn } from "@/utils/cn";
 import { IoSchool } from "react-icons/io5";
-import { LiaBirthdayCakeSolid } from "react-icons/lia";
 import { MdWork } from "react-icons/md";
+import { PiBabyFill } from "react-icons/pi";
 
 export function Timeline() {
   return (
-    <div className="flow-root">
+    <div className="flow-root px-2 md:px-0">
       <ul role="list" className="-mb-8">
         {timeline.map((event, eventIdx) => (
           <li key={event.title}>
@@ -58,6 +57,6 @@ const timeline = [
     date: '2002',
     title: 'Nascido no Brasil',
     description: 'Nasci em uma pequena cidade no interior de Minas Gerais no Brasil.',
-    icon: LiaBirthdayCakeSolid
+    icon: PiBabyFill
   }
 ];
