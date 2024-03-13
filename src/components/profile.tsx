@@ -1,5 +1,5 @@
 import { GithubProfile } from "@/types/github"
-import { FaClock, FaMapLocation } from "react-icons/fa6"
+import { FaClock, FaGithub, FaMapLocation } from "react-icons/fa6"
 import { DateTime } from "./date"
 
 interface Props {
@@ -23,6 +23,12 @@ export function Profile({ data }: Props) {
         <li className="flex gap-2 items-center">
           <FaClock className="text-zinc-400 text-md" />
           <DateTime />
+        </li>
+        <li className="flex gap-2 items-center">
+          <FaGithub className="text-zinc-400 text-md" />
+          <a href={data.html_url} className="hover:underline" target="_blank" rel="noreferrer">
+            {data.html_url}
+          </a>
         </li>
       </ul>
     </div>
