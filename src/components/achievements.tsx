@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export function Achievements() {
   return (
-    <div className="flex flex-col mt-6 py-6 border-neutral-600 md:border-t gap-4 w-full items-center md:items-start">
+    <div className="flex flex-col md:mt-6 py-6 border-neutral-600 md:border-t gap-4 w-full pl-8 md:pl-0">
       <div className="flex gap-2">
         {achievements.map((achievement, index) => (
           <div key={index} className="relative group">

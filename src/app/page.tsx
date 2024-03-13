@@ -15,7 +15,7 @@ export default async function Home() {
 
   return (
     <div className="py-8 md:py-24 bg-zinc-900 min-h-screen">
-      <div className="container max-w-7xl mx-auto sm:px-6 grid grid-cols-8 gap-6 md:gap-2">
+      <div className="container max-w-7xl mx-auto sm:px-6 grid grid-cols-8 gap-2">
         <div className="col-span-8 md:col-span-3 lg:col-span-2 flex flex-col items-center md:items-start">
           <Image src={profile.avatar_url} width={296} height={296} alt="Stanley Filipe" className="rounded-full border border-zinc-700" />
           <Profile data={profile} />
