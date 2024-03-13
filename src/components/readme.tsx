@@ -1,6 +1,7 @@
 import { Converter } from "showdown";
 
 const GITHUB_README_URL = "https://raw.githubusercontent.com/stanlino/stanlino/main/README.md";
+const GITHUB_URL = "https://github.com/stanlino/stanlino";
 
 export async function Readme() {
 
@@ -11,7 +12,7 @@ export async function Readme() {
 
   return (
     <div className="border rounded-md border-zinc-700 p-5 px-6 pb-3 flex flex-col gap-4">
-      <span className="text-xs text-zinc-200">stanlino / README.<span className="text-zinc-400">md</span></span>
+      <a href={GITHUB_URL} target="_blank" rel="noreferrer" className="text-xs text-zinc-200 hover:underline">stanlino / README.<span className="text-zinc-400">md</span></a>
       <article className="break-words">
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </article>
