@@ -8,14 +8,14 @@ interface Props {
 
 export function Profile({ data }: Props) {
   return (
-    <div className="flex flex-col gap-4">
-      <div className="flex flex-col items-center md:items-start">
+    <div className="flex flex-col gap-4 w-full">
+      <div className="flex flex-col gap-1 items-center md:items-start">
         <h1 className="text-3xl font-bold mt-5">Stanley Filipe</h1>
         <p className="text-zinc-400">
           {data.bio}
         </p>
       </div>
-      <ul className="flex md:flex-col gap-6 md:gap-2 text-sm text-zinc-300">
+      <ul className="flex flex-col gap-3 md:gap-2 text-sm text-zinc-300 pl-8 md:pl-0">
         <li className="flex gap-2 items-center">
           <FaMapLocation className="text-zinc-400 text-md" />
           Palmas, TO
