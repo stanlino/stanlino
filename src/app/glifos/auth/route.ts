@@ -9,18 +9,22 @@ export async function GET(request: Request) {
   const projectId = process.env.GOOGLE_API_PROJECT_ID;
   const redirectUri = process.env.GOOGLE_REDIRECT_URI;
 
-  const oAuth2Client = new OAuth2Client({
-    clientId,
-    clientSecret,
-    projectId,
-    redirectUri,
-  });
-
-  const response = await oAuth2Client.getToken(code);
-
-  return Response.redirect(
-    `${process.env.GLIFOS_DEEPLINK}?getTokenResponse=${JSON.stringify(
-      response
-    )}`
-  );
+  try {
+    const oAuth2Client = new OAuth2Client({
+      clientId,
+      clientSecret,
+      projectId,
+      redirectUri,
+    });
+    const {
+      tokens: { access_token, refresh_token, expiry_date },
+    } = await oAuth2Client.getToken(code);
+    const token = btoa(
+      JSON.stringify({ access_token, refresh_token, expiry_date })
+    );
+    const redirectURL = `${process.env.GLIFOS_DEEPLINK}?token=${token}`;
+    return Response.redirect(redirectURL);
+  } catch (error) {
+    return Response.json({ error }, { status: 500 });
+  }
 }
